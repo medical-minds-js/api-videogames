@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 //---------------------------------------------------
 
 app.get('/', (req, res) => {
-    return res.status(200).send({ message:'Grumafe Api-Videogames' });
+    return res.status(200).send({ message:'MedicalMinds Api-Videogames' });
 });
 
 const urlmongo = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@${process.env.MONGO_CLUSTER}/${process.env.MONGO_DB}`;
